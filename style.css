@@ -1,8 +1,8 @@
 html, 
 body{
     min-width: 290px;
-    color: darkgreen;
-    background-color: coral;
+    color: rgb(226, 230, 8);
+    background-color: rgb(14, 107, 114);
     font-family: "Open Sans", Arial, sans-serif;
     line-height: 1.5;
 }
@@ -36,7 +36,7 @@ header{
 
 }
 #navbar li{
-    color: darkgreen;
+    color: rgb(14, 65, 18);
     border-top: 1px solid;
     list-style: none;
     position: relative;
@@ -45,7 +45,7 @@ header{
 #navbar a{
     display: block;
     padding: 10px 30px;
-    color: darkgreen;
+    color: rgb(68, 235, 68);
     text-decoration: none;
     cursor: pointer;
 
@@ -57,9 +57,9 @@ header{
     margin-bottom: 110px;
 }
 section article{
-    color: blueviolet;
+    color: rgb(230, 190, 15);
     margin: 15px;
-    font-size: 0.96em;
+    font-size: 1.3em;
 }
 section li{
     margin: 15px 0px 0px 20px;
@@ -84,16 +84,16 @@ code{
 @media only screen and (max-width: 815px) {
     #navbarm ul{
         border: 1px solid;
-        height: 207px;
+        height:207px;
     }
     #navbar{
-        background-color: aqua;
+        background-color: rgb(5, 7, 97);
         position: absolute;
         top: 10;
         padding: 0;
         margin: 0;
         width: 100%;
-        max-height: 275px;
+        max-height: 295px;
         border: none;
         z-index: 1;
         border-bottom: 2px solid;
@@ -102,7 +102,7 @@ code{
       #main-doc {
         position: relative;
         margin-left: 0px;
-        margin-top: 270px;
+        margin-top: 320px;
       }
     }
     
