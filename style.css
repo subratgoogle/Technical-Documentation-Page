@@ -15,5 +15,49 @@ body{
     height: 100%;
     border-right: solid;
     border-color: blueviolet;
-    
+
+}
+header{
+    color: blueviolet;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+}
+#main-doc header{
+    text-align: left;
+    margin: 0px;
+}
+#navbar ul{
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+#navbar li{
+    color: darkgreen;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+#navbar a{
+    display: block;
+    padding: 10px 30px;
+    color: darkgreen;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+#main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+section article{
+    color: blueviolet;
+    margin: 15px;
+    font-size: 0.96em;
 }
